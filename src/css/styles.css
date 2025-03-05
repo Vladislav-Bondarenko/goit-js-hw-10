@@ -104,3 +104,102 @@ h1 {
   color: #2e2f42;
   text-transform: capitalize;
 }
+
+.form {
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form input[type='number'] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.form input[type='number']:hover {
+  border-color: #90a4ae;
+}
+
+.form input[type='number']:focus {
+  outline: none;
+  border-color: #42a5f5;
+  box-shadow: 0 0 0 2px rgba(66, 165, 245, 0.2);
+}
+
+.form fieldset {
+  border: 2px solid 808080;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 15px;
+  position: relative;
+}
+
+.form legend {
+  color: #42a5f5;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 8px;
+  background: white;
+  position: absolute;
+  top: -12px;
+  left: 16px;
+}
+
+.form [type='radio'] {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  accent-color: #42a5f5;
+}
+
+.form [type='radio']:hover {
+  transform: scale(1.1);
+}
+
+.form button {
+  width: 100%;
+  padding: 14px;
+  background: #42a5f5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background: #2196f3;
+  transform: translateY(-1px);
+}
+
+.form button:active {
+  background: #1e88e5;
+  transform: translateY(0);
+}
+
+.iziToast {
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 8px !important;
+}
+
+.iziToast-success {
+  background: #4caf50 !important;
+}
+
+.iziToast-error {
+  background: #f44336 !important;
+}
+
+.iziToast-warning {
+  background: #ff9800 !important;
+}
